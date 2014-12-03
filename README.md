@@ -1,6 +1,9 @@
 testHdfsApiViaCAndJava
 ======================
+main.cc is a C++ program that creates a JVM which performs a HDFS read via Java and main.cc also performs a HDFS read. Intent is to test and make sure there are no problems when we use HDFS api's via Java and C in the same process.
+
 Set environment variables
+
 ```export LD_LIBRARY_PATH=/opt/mapr/hadoop/hadoop-2.4.1/lib/native/:/usr/java/jdk1.7.0_67/jre/lib/amd64/server```
 
 Compile C program using the following cmd:
